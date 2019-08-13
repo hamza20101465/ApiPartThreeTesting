@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ac6f5d3-b476-4760-98a5-d192d614d7fe</testCaseGuid>
+   <variable>
+      <defaultValue>'eve.holt@reqres.in'</defaultValue>
+      <description></description>
+      <id>9beeefce-f560-44db-a5eb-a539ba3730b4</id>
+      <masked>true</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS,,,,2019-08-13 14:14:57,2019-08-13 14:15:10,12.729s,INCOMPLETE
+,,,,,,,
+Test Cases/DataDriven,,,,2019-08-13 14:14:58,2019-08-13 14:15:08,9.646s,PASSED
+"response1 = sendRequest(findTestObject(""register"", [""email"":email]))",,,,2019-08-13 14:15:00,2019-08-13 14:15:08,7.638s,PASSED
+xml = new groovy.json.JsonSlurper(),,,,2019-08-13 14:15:08,2019-08-13 14:15:08,0.085s,PASSED
+dataValue = xml.parseText(response1.getResponseBodyContent()),,,,2019-08-13 14:15:08,2019-08-13 14:15:08,0.097s,PASSED
+dataSpeci = id,,,,2019-08-13 14:15:08,2019-08-13 14:15:08,0.041s,PASSED
+"println(""The ID is "" + dataSpeci)",,,,2019-08-13 14:15:08,2019-08-13 14:15:08,0.013s,PASSED
+,,,,,,,
+Test Cases/DataDriven,,,,2019-08-13 14:15:08,2019-08-13 14:15:09,1.063s,PASSED
+"response1 = sendRequest(findTestObject(""register"", [""email"":email]))",,,,2019-08-13 14:15:08,2019-08-13 14:15:09,0.883s,PASSED
+xml = new groovy.json.JsonSlurper(),,,,2019-08-13 14:15:09,2019-08-13 14:15:09,0.004s,PASSED
+dataValue = xml.parseText(response1.getResponseBodyContent()),,,,2019-08-13 14:15:09,2019-08-13 14:15:09,0.030s,PASSED
+dataSpeci = id,,,,2019-08-13 14:15:09,2019-08-13 14:15:09,0.009s,PASSED
+"println(""The ID is "" + dataSpeci)",,,,2019-08-13 14:15:09,2019-08-13 14:15:09,0.023s,PASSED
+,,,,,,,
+Test Cases/DataDriven,,,,2019-08-13 14:15:09,2019-08-13 14:15:10,0.765s,PASSED
+"response1 = sendRequest(findTestObject(""register"", [""email"":email]))",,,,2019-08-13 14:15:09,2019-08-13 14:15:10,0.700s,PASSED
+xml = new groovy.json.JsonSlurper(),,,,2019-08-13 14:15:10,2019-08-13 14:15:10,0.008s,PASSED
+dataValue = xml.parseText(response1.getResponseBodyContent()),,,,2019-08-13 14:15:10,2019-08-13 14:15:10,0.004s,PASSED
+dataSpeci = id,,,,2019-08-13 14:15:10,2019-08-13 14:15:10,0.004s,PASSED
+"println(""The ID is "" + dataSpeci)",,,,2019-08-13 14:15:10,2019-08-13 14:15:10,0.000s,PASSED
